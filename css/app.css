@@ -1,0 +1,132 @@
+body {  
+    min-width:700px; 
+}
+
+.name {
+    color: #333333;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size:80px;
+}
+
+.test {
+    display: inline-block;
+    position: relative;
+}
+
+.game {
+    display: inline-block;
+    border: 10px solid #FF3333;
+    border-radius: 8px;
+    position: relative;
+}
+
+.spinner {
+    border: 1px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url("../img/sprite.png") repeat 0 0;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#reel0 {
+    background-position: 0px 0px;
+}
+
+#reel1 {
+    background-position: 200px 200px;
+}
+
+#reel2 {
+    background-position: 400px 400px;
+}
+
+.controls {
+    padding: 50px 5px;
+}
+
+a {
+    position: relative;
+    color: #FFF !important;
+    text-decoration: none !important;
+    background-color: #003399 !important;
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    -webkit-box-shadow: 0px 10px 0px #FF3333;
+    -moz-box-shadow: 0px 10px 0px #FF3333;
+    box-shadow: 0px 10px 0px #FF3333;
+    margin: 50px auto;
+    width: 165px;
+    height: 160px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+	
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+a:active {
+    -webkit-box-shadow: 0px 6px 0px #FF3333;
+    -moz-box-shadow: 0px 6px 0px #FF3333;
+    box-shadow: 0px 6px 0px #FF3333;
+    position: relative;
+    top: 6px;
+}
+
+.container {
+  margin: 200px 0 0 200px;
+  display: inline-block;
+}
+
+.result {
+    border: 10px solid #003399;
+    border-radius: 8px;
+    height: 150px;
+    margin: 10px;
+    background-color: #000;
+    color: #FFF;
+}
+
+#result {
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: 75px;
+    vertical-align: middle;
+}
+
+.winning {
+    width: 400px;
+    height: 75px;
+    background-image: url("../img/winning.png");
+    background-repeat: no-repeat;
+}
+
+.coffee {
+    background-position: 0px -20px;
+}
+
+.espresso {
+    background-position: 0px -120px;
+}
+
+.tea {
+    background-position: 0px -220px;
+}
+
+.slant {
+    font-size: 40px;
+    font-weight: 600;
+    color: #003399;
+    -webkit-transform: rotate(-2deg); 
+    -moz-transform: rotate(-2deg);
+}
