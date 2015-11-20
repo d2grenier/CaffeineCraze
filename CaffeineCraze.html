@@ -7,9 +7,13 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Libraries -->
+  <script src="js/shared/angular.min.js"></script>
+  <script src="js/shared/jquery.min.js"></script>
 </head>
 <body ng-app="slotmachine">
-    
+
   <div class="container-fluid text-center" ng-controller="SlotsCtrl" ng-init="init(3)">
       <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -21,8 +25,8 @@
             </div>
           </div>
       </div>
-      <div class="row">        
-            <div class="game"> 
+      <div class="row">
+            <div class="game">
                 <div id="reel0" class="spinner"></div>
                 <div id="reel1" class="spinner"></div>
                 <div id="reel2" class="spinner"></div>
@@ -42,9 +46,15 @@
         </div>
       </div>
   </div>
-  
-  <script src="js/angular.min.js"></script>
-  <script src="js/jquery.min.js"></script>
+
+  <!-- Modules -->
   <script src="js/app.js"></script>
+
+  <!-- Controllers -->
+  <script src="js/controllers/SlotsCtrl.js"></script>
+
+  <!-- Directives -->
+  <script src="js/directives/reel.js"></script>
+
 </body>
 </html>
